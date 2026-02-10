@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Unbounded:wght@200..900&display=swap');
+
+* {
+    font-family: "Google Sans";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {font-size: 2rem;}
+h2 {font-size: 1.5rem;}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #000000;
+    opacity: 30%;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    background-color: #3b6bc3;
+}
+
+.list-box {
+    padding: 50px;
+    background-color: #fff;
+    margin: auto;
+    height: 900px;
+    width: 1500px;
+    border-radius: 15px;
+    box-shadow: 0 20px 50px -20px;
+}
+
+.header {
+    background-color: #d5e4ff;
+    border: 2px solid rgb(145, 191, 255);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.tracker-box-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tracker-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    height: 80px;
+}
+
+.tracker-box-text {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tracker-box-text{}
+
+.progress-bar {
+    color: #ffffff00;
+    transition: 0.2s ease;
+    width: 100%;
+    height: 5px;
+    background-color: #a7a7a7;
+}
+.progress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    background-color: #4470c2;
+}
+.progress-bar:hover {
+    height: 50%;
+    color: #fff;
+}
