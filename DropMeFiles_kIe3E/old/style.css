@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+/* ================== BASE ================== */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ================== HEADER ================== */
+header,
+footer {
+    width: 100%;
+    background-color: rgb(99, 175, 99);
+    display: flex;
+    align-items: center;
+}
+
+header {
+    height: 70px;
+    font-size: large;
+}
+
+#left,
+#right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+#left {
+    justify-content: flex-start;
+    margin-left: auto;
+}
+
+#right {
+    justify-content: flex-end;
+    margin-right: auto;
+}
+
+/* ================== SECTIONS ================== */
+victorina,
+enter_gallery_box {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    background-color: #646464;
+    background-blend-mode: overlay;
+    background-size: auto;
+}
+
+victorina {
+    background-image: url("9val.jpg");
+    background-position: 0 -160px;
+}
+
+enter_gallery_box {
+    background-image: url("vangogh.jpg");
+    background-position: -100px -100px;
+}
+
+victorina:hover,
+enter_gallery_box:hover {
+    background-color: #464646;
+}
+
+/* ================== MAIN ================== */
+main {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    color: #fff;
+    text-shadow: 0 0 80px #000;
+    background: 
+        url("morning.jpg") -150px -100px / cover,
+        rgb(105, 105, 105);
+    background-blend-mode: overlay;
+    transition: 0.5s;
+}
+
+main_content_left,
+main_content_right {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main_content_left {
+    width: 59%;
+}
+
+main_content_right {
+    width: 41%;
+    font-size: 20px;
+}
+
+/* ================== BUTTONS ================== */
+button,
+#action_button {
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    box-shadow: 0 5px 40px -22px;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    background-color: rgb(149, 218, 149);
+}
+
+button:hover {
+    background-color: rgb(199, 235, 199);
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: rgb(187, 221, 187);
+}
+
+#action_button {
+    width: 300px;
+    font-size: 15px;
+    background-color: #fff;
+}
+
+#action_button:hover {
+    background-color: #d8d8d8;
+}
+
+#action_button:active {
+    background-color: #acacac;
+}
+
+/* ================== FOOTER ================== */
+footer {
+    height: 200px;
+    justify-content: center;
+}
+
+aside {
+    margin: auto;
+}
+
+#email {
+    width: 296px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* ================== TEXT ================== */
+#header_label,
+#main_tab {
+    margin-right: 30px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main_tab {
+    width: 150px;
+}
+
+#victorina_button:hover {
+    background-color: rgb(236, 236, 236);
+}
+
+#victorina_button:active {
+    background-color: rgb(216, 216, 216);
+}
