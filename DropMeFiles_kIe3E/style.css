@@ -106,7 +106,7 @@ main button:hover {
     align-items: center;
     justify-content: space-around;
     background-color: #ffb677;
-    height: 700px;
+    height: 800px;
     border: 2px solid;
 }
 
@@ -322,7 +322,7 @@ main button:hover {
     border: 2px solid;
     box-shadow: 7px 7px;
     gap: 80px;
-    margin-top: 100px;
+    margin-top: 80px;
     display: flex;
     height: 200px;
 }
@@ -339,4 +339,5 @@ main button:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
